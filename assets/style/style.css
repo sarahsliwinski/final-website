@@ -1,0 +1,370 @@
+/*This is a stylesheet*/
+/*cant use html in css and visaversa*/
+
+body{
+    background-color: rgb(88,82,80);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;}
+
+.hero{
+    width:100vm;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(/assets/images/mainstreet.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+.hero h1{
+    font-size: 3em;
+    color: white;
+    font-family: 'Rozha One', serif;
+    padding: 20px;
+    width: 759px;
+    float:inherit;
+    }
+
+.thelocation{
+    width:100vm;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricsandstore.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.thelocation h2{
+    font-size: 3em;
+    color: white;
+    font-family: 'Rozha One', serif;
+    padding: 20px;
+    width: 759px;
+    float:right;}
+
+.thelocation p{
+    font-family: 'Halant', serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    float: inherit;}
+
+.thehistory{
+    width:100vm;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricplan2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.thehistory h2{
+    font-size: 2em;
+    color: white;
+    font-family: 'Rozha One', serif;
+    padding: 10px;
+    width: 500px;
+    float:inherit;}
+
+.thehistory p{
+    font-family: 'Halant', serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;}
+    
+}
+.thedetails{ 
+    width:100vm;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/assets/images/pierboatsheads.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.thedetails h2{
+    font-size: 3em;
+    color: white;
+    font-family: 'Rozha One', serif;
+    padding: 10px;
+    width: 759px;
+    float:inherit;}
+
+.thedetails p{
+    font-family: 'Halant', serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;}
+
+/*WRAPPERS*/
+.wrapper{width: 100%;}
+
+.textcontent h2{
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+    float:none;
+    font-family: 'Rozha One', serif;
+    justify-content: center;}
+
+.textcontent h4{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    float: none;
+font-family: 'Halant', serif;}
+
+.textcontent p{
+    font-family: 'Halant', serif;
+padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;}
+
+footer{
+    /*sizing*/
+    width:100%;
+    height:80px;
+    
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    /*background*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+/*NAVIGATION*/
+
+header .nav {
+    text-align: center; 
+    height: 70px; 
+    line-height: 70px; }
+header .menu { 
+    margin: 0 30px 0 0; }
+header .menu a { 
+    text-decoration: none; 
+    color: white; margin: 0 10px; 
+    line-height: 70px; 
+    display: inline-block;
+    padding: 5px 45px; 
+    font-family: 'Rozha One', serif;}
+header label { 
+    margin: 0 40px 0 0; 
+    font-size: 20px; 
+    line-height: 70px; 
+    display: none; 
+    width: 26px; 
+    float: center; }
+header #toggle { 
+    display: none;}
+
+div.backtotop{
+    float:right;
+    font-family:'Rozha One', serif;}
+
+div.indexlocationlink{float:right;
+    font-family:'Rozha One', serif;}
+
+div.indexhistorylink{float:right;
+    font-family:'Rozha One', serif;}
+
+div.indexdetaillink{float:right;
+    font-family:'Rozha One', serif;}
+
+a:hover{
+    color: rgb(88,82,80);
+    outline-color: white;}
+
+a:link{
+    color: white;
+    text-decoration: none;}
+
+a:visited{
+    color:white;
+    text-decoration-color: white;}
+
+a:active{
+    color: white}
+
+/*IMAGES*/
+
+div.image{
+    width: 100%;
+    height: 100vh;
+overflow: hidden;}
+
+
+/* this is the edit for the images on the other pages so they fill the container*/
+
+/*width: 500px;
+    height: 500px;
+    object-fit:fill;}*/
+
+/*images on pages: description, index and location need to still be resized and edited*/
+
+.frontengineersoffice{
+    transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
+
+.gravestone{transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    float: inherit;
+    margin-left: 10%;}
+
+.engineersoffice{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    float: inherit;}
+
+.kingstonpier{
+    width: 100%;
+border: 11px solid black;}
+
+.boatsheds{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    float: inherit;}
+
+.barricsandstore{
+width:100%;
+border: 11px solid black;}
+
+.gaolentrence{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    float: inherit;}
+
+.barricplan{
+width: 100%;
+border: 11px solid black;}
+
+.shoreline{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    float: inherit;}
+
+/*MEDIA QUERIES*/
+/*IPAD VIEW*/
+@media only screen and (max-width: 800px){
+.hero{
+    display:block; 
+    width: 100%;
+    padding-bottom: 30px;
+    /*sizing*/
+    width:100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.hero h1{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    width: 759px;
+    float:inherit;}
+.textcontent h2{
+    padding: 20px 0px 0px;
+    margin-left: 50px;}
+.textcontent p{
+    padding: 20px 0px 0px;
+    margin: auto;
+    line-height: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;}
+   
+    .indexlinks{display:none;}}
+
+/*IPHONE X VIEW*/
+@media only screen and (max-width: 500px)
+{header label { 
+    display: block; 
+    cursor: pointer; }
+  header .menu { 
+      text-align: center; 
+      width: 100%; 
+      display: none; }
+  header .menu a { 
+      display: block; 
+      border-bottom: 
+      margin: 0; }
+  header #toggle:checked + .menu { display: block; }
+.wrapper{
+    width:100%;}
+.hero{width: 100%;
+    height: 20px;}
+.hero h1{display: none;}
+.textcontent p{ 
+    padding: 0px 30px 20px;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 15px;}
+.indexlinks{display: none;}}
+
+
+/* use relative positions smartly, othher elements dont acknolewdge it when it repositions*/
+/*position: relative;
+top: 50px;*/
+/* widths are always css, not html*/
+
+/*in colour numbers the first pair is the red, the second pair is green and and third is the blue*/
