@@ -19,13 +19,13 @@ body{
     text-align: center;
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
-    url(/assets/images/mainstreet.jpg);
+    url(../images/mainstreet.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;}
 
-.hero h2{
+.hero h1{
     font-size: 3em;
     color: white;
     font-family: 'Rozha One', serif;
@@ -42,7 +42,7 @@ body{
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricsandstore.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/barricsandstore.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ div.indexlocationlink{
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricplan2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/barricplan2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ div.indexhistorylink{
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricsandstore.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/barricsandstore.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ div.indexdetaillink{
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/shoreline.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/farleftrockwehreccarrived.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ div.indexdetaillink{
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/assets/images/barricsandstore.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/barricsandstore.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,15 +160,13 @@ div.indexdetaillink{
     align-content: center;}
 
 .textcontent h3{
-    padding: 20px 20px 20px;
-    align-content: left;
-    font-size: 1.8em;
-    text-align: left;
-    margin-left: 200px;
-    font-family: 'Rozha One', serif;
     color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;}
+    font-size: 1.2em;
+    text-align: left;
+    align-content: left;
+    font-family: 'Rozha One', serif;
+    margin-left: 200px;
+    margin-bottom: 20px}
 
 .textcontent h4{
     color: white;
@@ -266,10 +264,10 @@ a:active{
 
 div.image{
 width: 100%;
-height: 100vh;
 overflow: hidden;
 align-content: center;
-opacity: 0.8;}
+opacity: 0.8;
+padding-bottom: 30px;}
 
 /* this is the edit for the images on the other pages so they fill the container*/
 /*images on pages: description, index and location need to still be resized and edited*/
@@ -283,16 +281,14 @@ opacity: 0.8;}
     height: 500px;
     object-fit:cover;
     float: inherit;
-    margin-right: 50px;
-padding-bottom: 10px;}
+    margin-right: 50px;}
 
 .grave{transform: rotate(90deg);
 	position:static;
 	width: 500px;
     height: 500px;
     object-fit:cover;
-    float: inherit;
-padding-bottom: 10px;}
+    float: inherit;}
 
 .engineersoffice{
 transform: rotate(90deg);
@@ -301,16 +297,14 @@ transform: rotate(90deg);
     height: 500px;
     object-fit:cover;
     float: right;
-    margin-right: 50px;
-padding-bottom: 10px;}
+    margin-right: 50px;}
 
 .kingstonpier{
     width: 500px;
     height: 500px;
     object-fit:cover;
     float: inherit;
-    margin-right: 50px;
-padding-bottom: 10px;}
+    margin-right: 50px;}
 
 .boatsheds{
 transform: rotate(90deg);
@@ -320,8 +314,7 @@ transform: rotate(90deg);
     object-fit:cover;
     border-radius:8px;
         float: right;
-    margin-right: 50px;
-padding-bottom: 10px;}
+    margin-right: 50px;}
 
 .gaolentrence{
 transform: rotate(90deg);
@@ -331,9 +324,7 @@ transform: rotate(90deg);
     object-fit:cover;
     border-radius:8px;    
     float: right;
-    margin-right: 50px;
-    padding-bottom: 10px;
-}
+    margin-right: 50px;}
 
 /*MEDIA QUERIES*/
 
@@ -350,7 +341,7 @@ transform: rotate(90deg);
     justify-content: center;
     align-items: center;
     }
-.hero h2{
+.hero h1{
     font-size: 30px;
     color: white;
     padding: 10px;
@@ -395,16 +386,16 @@ transform: rotate(90deg);
     margin-right: 30px;
     margin-left: 30px;}
 .thelocation2{height: 500px;}
-.shorelineimage{height: 500px;}}
+.shorelineimage{height: 500px;}
+.image{display: none;}}
 
 @media only screen and (max-width: 671px){
     .menu a {
         margin: 5px;
-        width: auto;}
-}
+        width: auto;}}
 
 /*IPHONE X VIEW*/
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 500px) 
 { header label { 
     display: block; 
     cursor: pointer; }
@@ -413,15 +404,14 @@ transform: rotate(90deg);
       width: 100%; 
       display: none; }
   header .menu a { 
-      display: block; 
-      border-bottom: 
-      margin: 0; }
+      display: block;
+      margin: 0;}
   header #toggle:checked + .menu { display: block; }
 .wrapper{
     width:100%;}
 .hero{width: 100%;
     height: 20px;}
-.hero h2{display: none;}
+.hero h1{display: none;}
 .textcontent h2{
     align-content: center;
     font-size: 1.5em;
