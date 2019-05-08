@@ -230,7 +230,7 @@ header .menu a {
     font-family: 'Rozha One', serif;
     z-index:30;
     overflow: hidden;
-backface-visibility: visible;}
+    backface-visibility: visible;}
 header label { 
     margin:40px 0 0; 
     font-size: 20px; 
@@ -402,10 +402,12 @@ transform: rotate(90deg);
   header .menu { 
       text-align: center; 
       width: 100%; 
-      display: none; }
+      display: none;
+    z-index: 999999;}
   header .menu a { 
-      display: block;
-      margin: 0;}
+      display: block; 
+      background-color: black;
+      position: relative;}
   header #toggle:checked + .menu { display: block; }
 .wrapper{
     width:100%;}
@@ -432,11 +434,3 @@ transform: rotate(90deg);
 .indexlinks{display: none;}
 .thelocation2{height: 300px;}
 .shorelineimage{height: 300px;}}
-
-
-/* use relative positions smartly, othher elements dont acknolewdge it when it repositions*/
-/*position: relative;
-top: 50px;*/
-/* widths are always css, not html*/
-
-/*in colour numbers the first pair is the red, the second pair is green and and third is the blue*/
